@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Timetable 2024/2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+        }
+        .timetable-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 18px;
+            margin: 0 0 15px 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 4px 2px;
+            text-align: center;
+            height: 24px;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .break {
+            background-color: #ffcc99;
+            font-weight: bold;
+        }
+        .lunch {
+            background-color: #ccffcc;
+            font-weight: bold;
+        }
+        .day-label {
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            width: 16px;
+            padding: 2px;
+        }
+        .day-letter {
+            font-weight: bold;
+            width: 12px;
+        }
+        .teachers {
+            margin-top: 15px;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="timetable-container">
+        <h1>MASTER TIMETABLE FOR 2024/2025 ACADEMIC YEAR</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 40px;">Day/Time</th>
+                    <th style="width: 40px;">8.00-8.10</th>
+                    <th style="width: 45px;">8.10-8.55</th>
+                    <th style="width: 45px;">9.00-9.45</th>
+                    <th style="width: 45px;">9.45-10.15</th>
+                    <th style="width: 45px;">10.15-11.00</th>
+                    <th style="width: 45px;">11.05-11.50</th>
+                    <th style="width: 45px;">11.55-12.40</th>
+                    <th style="width: 45px;">12.40-13.30</th>
+                    <th style="width: 45px;">1.30-2.15</th>
+                    <th style="width: 45px;">2.20-3.05</th>
+                    <th style="width: 45px;">3.10-3.55</th>
+                    <th style="width: 45px;">3.55-4.00</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Monday -->
+                <tr>
+                    <td rowspan="5" class="day-label">MON</td>
+                    <td rowspan="5" class="day-letter">F</td>
+                    <td>Yr.7</td>
+                    <td>ICT 2</td>
+                    <td>MATH 11</td>
+                    <td>ENG 17</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>GEO 15</td>
+                    <td>SCIENCE 9</td>
+                    <td>MUSIC 8</td>
+                    <td rowspan="5">DEPART</td>
+                </tr>
+                <tr>
+                    <td>Yr.8</td>
+                    <td>MATH 11</td>
+                    <td>SCIENCE 9</td>
+                    <td>ART 18</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>ENG 17</td>
+                    <td>LS 14</td>
+                    <td>LS 14</td>
+                </tr>
+                <tr>
+                    <td>Yr.9</td>
+                    <td>Devotion</td>
+                    <td>ENG 17</td>
+                    <td class="break">BREAK</td>
+                    <td>HIST 10</td>
+                    <td>SCIENCE 9</td>
+                    <td>SWA13/FRE 5/CH6</td>
+                    <td>BUS 11</td>
+                    <td>MATH 4</td>
+                    <td>P.E 13</td>
+                </tr>
+                <tr>
+                    <td>Yr.10</td>
+                    <td>ENG 7</td>
+                    <td>LS 14</td>
+                    <td>LS 14</td>
+                    <td>MATH 4</td>
+                    <td>BIO 19</td>
+                    <td>GEO 15</td>
+                    <td>HIST 10</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Yr.11</td>
+                    <td>GEO 15 / FRE 5</td>
+                    <td>BIO 3</td>
+                    <td>FRE/ICT 12</td>
+                    <td>ENG 7</td>
+                    <td>PHY 16</td>
+                    <td>SWA 13</td>
+                    <td>MATH 4</td>
+                    <td></td>
+                </tr>
+
+                <!-- Tuesday -->
+                <tr>
+                    <td rowspan="5" class="day-label">TUE</td>
+                    <td rowspan="5" class="day-letter">T</td>
+                    <td>Yr.7</td>
+                    <td>SCIENCE 9</td>
+                    <td>LIB</td>
+                    <td>MATH 11</td>
+                    <td>ART 18</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>ENG 17</td>
+                    <td>HIST 1</td>
+                    <td rowspan="5">DEPART</td>
+                </tr>
+                <tr>
+                    <td>Yr.8</td>
+                    <td>MATH 11</td>
+                    <td>SCIENCE 9</td>
+                    <td>ENG 17</td>
+                    <td>GEO 15</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>HIST 1</td>
+                    <td>ICT 2</td>
+                </tr>
+                <tr>
+                    <td>Yr.9</td>
+                    <td>ENG 17</td>
+                    <td>SWA13/FRE 5/CH6</td>
+                    <td>LS 14</td>
+                    <td>LS 14</td>
+                    <td>MATH 4</td>
+                    <td>P.E 13</td>
+                    <td>SCIENCE 9</td>
+                    <td>GENDER</td>
+                </tr>
+                <tr>
+                    <td>Yr.10</td>
+                    <td>MATH 4</td>
+                    <td>ENG 7</td>
+                    <td class="break">BREAK</td>
+                    <td>HIST 10</td>
+                    <td>CHEM 19</td>
+                    <td>PHY 9</td>
+                    <td>BUS15/CHI 6/FRE 5</td>
+                    <td>BUS15/CHI 6/FRE 5</td>
+                </tr>
+                <tr>
+                    <td>Yr.11</td>
+                    <td>ENG 7</td>
+                    <td>MATH 4</td>
+                    <td>PHY 16</td>
+                    <td>GEO 15 / FRE 5</td>
+                    <td>HIST 10</td>
+                    <td>BUS 4</td>
+                    <td>BUS 4</td>
+                    <td></td>
+                </tr>
+
+                <!-- Wednesday -->
+                <tr>
+                    <td rowspan="5" class="day-label">WED</td>
+                    <td rowspan="5" class="day-letter">W</td>
+                    <td>Yr.7</td>
+                    <td>SCIENCE 9</td>
+                    <td>MATH 11</td>
+                    <td>GEO 15</td>
+                    <td>ENG 17</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>HIST 1</td>
+                    <td>ART 18</td>
+                    <td rowspan="5">DEPART</td>
+                </tr>
+                <tr>
+                    <td>Yr.8</td>
+                    <td>MATH 11</td>
+                    <td>ENG 17</td>
+                    <td>HIST 1</td>
+                    <td>ART 18</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>SCIENCE 9</td>
+                    <td>MUSIC 8</td>
+                </tr>
+                <tr>
+                    <td>Yr.9</td>
+                    <td>ENG 17</td>
+                    <td>SCIENCE 9</td>
+                    <td>ICT 2</td>
+                    <td>ICT 2</td>
+                    <td>GEO 15</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>MATH 4</td>
+                    <td>HIST 10</td>
+                </tr>
+                <tr>
+                    <td>Yr.10</td>
+                    <td>ICT 2/SWA 13</td>
+                    <td>ICT 2/SWA 13</td>
+                    <td>MATH 4</td>
+                    <td>PHY 9</td>
+                    <td>ENG 7</td>
+                    <td>BIO 19</td>
+                    <td>GEO 15</td>
+                    <td>CLUBS</td>
+                </tr>
+                <tr>
+                    <td>Yr.11</td>
+                    <td>BUS 4</td>
+                    <td>ENG 7</td>
+                    <td>CHEM 3</td>
+                    <td>GEO 15</td>
+                    <td>MATH 4</td>
+                    <td>ICT 12</td>
+                    <td>ICT 12</td>
+                    <td></td>
+                </tr>
+
+                <!-- Thursday -->
+                <tr>
+                    <td rowspan="5" class="day-label">THUR</td>
+                    <td rowspan="5" class="day-letter">T</td>
+                    <td>Yr.7</td>
+                    <td>MATH 11</td>
+                    <td>SCIENCE 9</td>
+                    <td>HIST 1</td>
+                    <td>ENG 17</td>
+                    <td>ICT 2</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>LS 14</td>
+                    <td>LS 14</td>
+                    <td rowspan="5">DEPART</td>
+                </tr>
+                <tr>
+                    <td>Yr.8</td>
+                    <td>ENG 17</td>
+                    <td>LIB</td>
+                    <td>MATH 11</td>
+                    <td>GEO 15</td>
+                    <td>MUSIC 9</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>SCIENCE 9</td>
+                    <td>SCIENCE 9</td>
+                </tr>
+                <tr>
+                    <td>Yr.9</td>
+                    <td>SCIENCE 9</td>
+                    <td>ENG 17</td>
+                    <td>MATH 4</td>
+                    <td>HIST 10</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>GEO 15</td>
+                    <td>BUS 11</td>
+                </tr>
+                <tr>
+                    <td>Yr.10</td>
+                    <td>MATH 4</td>
+                    <td>CHEM 19</td>
+                    <td class="break">BREAK</td>
+                    <td>ENG 7</td>
+                    <td>PHY 9</td>
+                    <td>PHY 9</td>
+                    <td>MATH 4</td>
+                    <td>GEO 15</td>
+                </tr>
+                <tr>
+                    <td>Yr.11</td>
+                    <td>ENG 7</td>
+                    <td>BUS 4</td>
+                    <td>CHEM 3</td>
+                    <td>CHEM 3</td>
+                    <td>PHY 16</td>
+                    <td>SWA 13</td>
+                    <td>SWA 13</td>
+                    <td></td>
+                </tr>
+
+                <!-- Friday -->
+                <tr>
+                    <td rowspan="5" class="day-label">FRI</td>
+                    <td rowspan="5" class="day-letter">F</td>
+                    <td>Yr.7</td>
+                    <td>MATH 11</td>
+                    <td>ICT 2</td>
+                    <td>ENG 17</td>
+                    <td>GEO 15</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>SCIENCE 9</td>
+                    <td>MUSIC 8</td>
+                    <td rowspan="5">DEPART</td>
+                </tr>
+                <tr>
+                    <td>Yr.8</td>
+                    <td>ENG 17</td>
+                    <td>GEO 15</td>
+                    <td>MATH 11</td>
+                    <td>HIST 1</td>
+                    <td>P.E 13</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>ICT 2</td>
+                    <td>ICT 2</td>
+                </tr>
+                <tr>
+                    <td>Yr.9</td>
+                    <td>GEO 15</td>
+                    <td>MATH 4</td>
+                    <td class="break">BREAK</td>
+                    <td>ICT 2</td>
+                    <td>ENG 17</td>
+                    <td class="lunch">LUNCH</td>
+                    <td>SCIENCE 9</td>
+                    <td>BUS 11</td>
+                </tr>
+                <tr>
+                    <td>Yr.10</td>
+                    <td>ICT 2/SWA 13</td>
+                    <td>HIST 10</td>
+                    <td>MATH 4</td>
+                    <td>CHEM 19</td>
+                    <td>ENG 7</td>
+                    <td>BUS15/CHI 6/FRE 5</td>
+                    <td>BIO 19</td>
+                    <td>GAMES</td>
+                </tr>
+                <tr>
+                    <td>Yr.11</td>
+                    <td>BIO 3</td>
+                    <td>BIO 3</td>
+                    <td>ENG 7</td>
+                    <td>MATH 4</td>
+                    <td>MATH 4</td>
+                    <td>HIST 10</td>
+                    <td>HIST 10</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="teachers">
+            1 Jackline; 2 Joseph; 3 Pauline; 4 Ken; 5 Brillian; 6 Philip; 7 Ann; 8 Maua; 9 Kibwana; 10 Stephen; 11 Amor; 12 Maureen; 13 Jael; 14 Evans; 15 Fred<br>
+            16 Allan; 17 Jillian; 18. Oliver; 19. Karen
+        </div>
+    </div>
+</body>
+</html>
